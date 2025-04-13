@@ -11,14 +11,15 @@ google-api-core==2.24.2
 google-api-python-client==2.166.0
 google-auth==2.38.0
 google-auth-httplib2==0.2.0
-google-genai==1.10.0
+google-generativeai==0.3.2
+google-ai-generativelanguage==0.4.0
 googleapis-common-protos==1.69.2
 grpcio==1.71.0
 grpcio-status==1.71.0
 h11==0.14.0
 httpcore==1.0.8
 httplib2==0.22.0
-httpx==0.28.1
+httpx==0.26.0
 idna==3.10
 jiter==0.9.0
 openai==1.72.0
@@ -43,4 +44,4 @@ uvicorn==0.27.1
 aiohttp==3.9.3
 asyncio==3.4.3
 python-dateutil==2.8.2
-pydantic-settings==2.2.1
+pydantic-settings==2.2.1  # downgraded for pydantic compatibility
